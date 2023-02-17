@@ -20,6 +20,9 @@
         <li class="nav-item">
           <a class="nav-link" href="index.php">Home</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?controlador=estadisticas&accion=lista">Top 3 Entradas</a>
+        </li>
       <?php
       if ($sesion->haySesion()) {
         echo <<<END
